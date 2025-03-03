@@ -1,0 +1,114 @@
+<html lang="pt"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forgotten Kingdom</title>
+  <!-- Google Fonts para fontes com estilo antigo -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&amp;family=MedievalSharp&amp;display=swap" rel="stylesheet">
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'MedievalSharp', cursive;
+      background: url('https://images.pexels.com/photos/13089555/pexels-photo-13089555.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: #3e3a33;
+      line-height: 1.6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .overlay {
+      background: rgba(244, 241, 233, 0.95);
+      padding: 20px;
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #5a3e36;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+    .search-box {
+      width: 100%;
+      padding: 20px;
+      background: rgba(255,255,255,0.8);
+      border: 3px solid #5a3e36;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .search-box input[type="text"] {
+      width: 80%;
+      padding: 12px 15px;
+      font-size: 1.2em;
+      border: 2px solid #5a3e36;
+      border-radius: 5px;
+      font-family: 'MedievalSharp', cursive;
+      margin-right: 5px;
+    }
+    .search-box input[type="submit"] {
+      padding: 12px 20px;
+      font-size: 1.2em;
+      background: #5a3e36;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: 'MedievalSharp', cursive;
+    }
+    .decorative-border {
+      border-top: 4px double #5a3e36;
+      width: 100%;
+      margin: 20px 0;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #5a3e36;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>Forgotten Kingdom</h1>
+      <p>O que você busca, viajante de uma terra distante?</p>
+    </header>
+
+    <div class="decorative-border"></div>
+
+    <div class="search-box">
+      <form action="https://www.google.com/search" method="get" target="_blank">
+        <input type="text" name="q" placeholder="Escreva aqui o que deseja.">
+        <input type="submit" value="Buscar">
+      </form>
+    </div>
+
+    <div class="decorative-border"></div>
+
+    <footer>
+      <p>© 2025 Forgotten Kingdom by Multiversal Void Company (MVC). Imagem de fundo por <a href="https://www.pexels.com/pt-br/foto/13089555/">Pexels</a>.</p>
+    </footer>
+
+  </div>
+
+
+</body></html>
